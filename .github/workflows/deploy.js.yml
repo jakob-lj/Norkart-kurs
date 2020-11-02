@@ -2,6 +2,8 @@ name: Deploy
 on:
   push:
     branches: [ main ]
+  pull_requests:
+    branches: [ main, deploy ]
 
 jobs:
   build:
@@ -26,6 +28,11 @@ jobs:
         git config --global user.email $user_email
         git remote set-url origin https://${github_token}@github.com/${repository}
         npm run deploy
+      env:
+        user_name: 'Ettellerannet'
+        user_email: 'Ettellerannet@epost.no'
+        github_token: ${{ secrets.SECRET }}
+        repository: ${{ github.repository }}
 
     - name: aws deploy via ssh
         uses: garygrossgarten/github-action-ssh@release
@@ -34,11 +41,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ubuntu
           privateKey: ${{ secrets.PRIVATE_KEY}}
-      env:
-        user_name: 'Ettellerannet'
-        user_email: 'Ettellerannet@epost.no'
-        github_token: ${{ secrets.SECRET }}
-        repository: ${{ github.repository }}
+
       
         
 
