@@ -42,7 +42,3 @@ jobs:
         username: ubuntu
         passphrase: ''
         privateKey: ${{ secrets.PRIVATE_KEY}}
-
-      
-        
-
