@@ -8,4 +8,5 @@ services:
         - "3000:80"
     backend: 
         build: api/
-        ports: "9000:9000"
+        ports: 
+            - "9000:9000"
