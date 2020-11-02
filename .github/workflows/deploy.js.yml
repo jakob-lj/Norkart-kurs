@@ -27,15 +27,15 @@ jobs:
         git remote set-url origin https://${github_token}@github.com/${repository}
         npm run deploy
       env:
-        user_name: 'Ettellerannet'
-        user_email: 'Ettellerannet@epost.no'
+        user_name: 'jakob-lj'
+        user_email: 'jakob-lj@hotmail.com'
         github_token: ${{ secrets.SECRET }}
         repository: ${{ github.repository }}
 
     - name: aws deploy via ssh
       uses: garygrossgarten/github-action-ssh@release
       with:
-        command: ls -a
+        command: cd Norkart-kurs && git pull && docker-compose up -d --no-cache
         host: ${{ secrets.HOST }}
         username: ubuntu
         passphrase: ''
