@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Norkart-kurs/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Norkart-kurs/static/js/main.5e49fefd.chunk.js",
-    "main.js.map": "/Norkart-kurs/static/js/main.5e49fefd.chunk.js.map",
+    "main.js": "/Norkart-kurs/static/js/main.fd76258b.chunk.js",
+    "main.js.map": "/Norkart-kurs/static/js/main.fd76258b.chunk.js.map",
     "runtime-main.js": "/Norkart-kurs/static/js/runtime-main.1144851e.js",
     "runtime-main.js.map": "/Norkart-kurs/static/js/runtime-main.1144851e.js.map",
     "static/css/2.0a5b19c0.chunk.css": "/Norkart-kurs/static/css/2.0a5b19c0.chunk.css",
     "static/js/2.16ab8709.chunk.js": "/Norkart-kurs/static/js/2.16ab8709.chunk.js",
     "static/js/2.16ab8709.chunk.js.map": "/Norkart-kurs/static/js/2.16ab8709.chunk.js.map",
     "index.html": "/Norkart-kurs/index.html",
-    "precache-manifest.2b0e6d5209385f13cb2894e519688e6d.js": "/Norkart-kurs/precache-manifest.2b0e6d5209385f13cb2894e519688e6d.js",
+    "precache-manifest.9edc4ec987f7e366134e73d1472a8111.js": "/Norkart-kurs/precache-manifest.9edc4ec987f7e366134e73d1472a8111.js",
     "service-worker.js": "/Norkart-kurs/service-worker.js",
     "static/css/2.0a5b19c0.chunk.css.map": "/Norkart-kurs/static/css/2.0a5b19c0.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/Norkart-kurs/static/css/main.5ecd60fb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.0a5b19c0.chunk.css",
     "static/js/2.16ab8709.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.5e49fefd.chunk.js"
+    "static/js/main.fd76258b.chunk.js"
   ]
 }
